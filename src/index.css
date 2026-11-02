@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #FAF7F2;
+    --color-champagne: #C5A059;
+    --color-champagne-light: #DFCA9B;
+    --color-beige: #F4EFE6;
+    --color-navy: #0F1B2B;
+    --color-navy-dark: #0A131F;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FAF7F2;
+    color: #1A222C;
+  }
+
+  ::selection {
+    background-color: #C5A059;
+    color: #0F1B2B;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Luxury subtle glassmorphism and gold shimmer */
+.luxury-gold-shimmer {
+  background: linear-gradient(135deg, #DFCA9B 0%, #C5A059 45%, #EADBBA 70%, #9F7932 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.luxury-gold-border {
+  border-image: linear-gradient(to right, #DFCA9B, #C5A059, #B89248) 1;
+}
+
+/* Subtle arabesque background pattern */
+.bg-arabesque-pattern {
+  background-image: radial-gradient(#C5A059 0.75px, transparent 0.75px), radial-gradient(#C5A059 0.75px, #FAF7F2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.05;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A68037;
+}

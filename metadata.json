@@ -1,0 +1,6 @@
+{
+  "name": "Nahd Resorts & Holidays | Luxury Tropical Villa Retreats",
+  "description": "Experience unparalleled luxury with private pool villas, serene tropical waters, and family-friendly tranquility at Nahd Resorts & Holidays.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
